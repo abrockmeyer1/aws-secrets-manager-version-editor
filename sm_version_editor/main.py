@@ -5,7 +5,6 @@ import datetime
 import time
 import click
 import json
-from sm_version_editor.util import *
 from tabulate import tabulate
 from botocore.exceptions import ClientError
 
@@ -212,11 +211,11 @@ def update_secret_version_stage(
     \b
     How to use:
     Use Case 1:
-    smts-secrets update-secret-version-stage --sid <secret-id> --stage-label <stage-label> --from-vid <version-id>
+    smve update-secret-version-stage --sid <secret-id> --stage-label <stage-label> --from-vid <version-id>
     Use Case 2:
-    smts-secrets update-secret-version-stage --sid <secret-id> --stage-label <stage-label> --to-vid <version-id>
+    smve update-secret-version-stage --sid <secret-id> --stage-label <stage-label> --to-vid <version-id>
     Use Case 3:
-    smts-secrets update-secret-version-stage --sid <secret-id> --stage-label <stage-label> --from-vid <version-id> --to-vid <version-id>
+    smve update-secret-version-stage --sid <secret-id> --stage-label <stage-label> --from-vid <version-id> --to-vid <version-id>
     """
     if os.getenv("AWS_PROFILE") is not None:
         profile = os.getenv("AWS_PROFILE")

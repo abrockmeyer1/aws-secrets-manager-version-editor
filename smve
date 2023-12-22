@@ -3,4 +3,4 @@
 import sm_version_editor
 
 if __name__ == "__main__":
-    smtssecrets.cli()
+    sm_version_editor.cli()

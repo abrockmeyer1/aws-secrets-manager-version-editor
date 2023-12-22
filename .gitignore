@@ -1,2 +1,5 @@
 .vscode
 gh-md-toc
+venv
+build
+*.egg-info
