@@ -4,20 +4,20 @@ It should be used in place of the AWS UI which does not support version history 
 This Repository will automatically create a version label with a timestamp when used. If you wish to change this behavior, you can edit the stage label using directions below.
 
 <!--ts-->
-   * [](#requirements)
-   * [](#how-to-use)
-   * [](#examples)
-      * [](#1-creating-a-new-secret)
-      * [](#2-deleting-a-secret)
-      * [](#3-get-value-of-a-secret)
-      * [](#4-list-secret-version-ids-for-a-secret)
-      * [](#5-list-secrets-ids-from-secrets-manager)
-      * [](#6-restore-a-secret-within-the-recovery-window)
-      * [](#7-update-value-of-a-secret)
-      * [](#8-update-secret-version-stage-labels---controlling-version-history)
+   * [Requirements](#requirements)
+   * [How To Use](#how-to-use)
+   * [Examples](#examples)
+      * [1 Creating a New Secret](#1-creating-a-new-secret)
+      * [2. Deleting A Secret](#2-deleting-a-secret)
+      * [3. Get Value of a Secret](#3-get-value-of-a-secret)
+      * [4. List Secret Version IDs for a Secret](#4-list-secret-version-ids-for-a-secret)
+      * [5. List Secrets Ids from Secrets Manager](#5-list-secrets-ids-from-secrets-manager)
+      * [6. Restore a Secret within the recovery window](#6-restore-a-secret-within-the-recovery-window)
+      * [7. Update Value of a Secret](#7-update-value-of-a-secret)
+      * [8. Update Secret Version Stage Labels - Controlling Version History](#8-update-secret-version-stage-labels---controlling-version-history)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: abroc, at: Fri, Dec 22, 2023  3:33:36 PM -->
+<!-- Added by: abroc, at: Fri, Dec 22, 2023  3:45:31 PM -->
 
 <!--te-->
 
