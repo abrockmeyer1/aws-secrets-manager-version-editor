@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+import sm_version_editor
+
+if __name__ == "__main__":
+    smtssecrets.cli()
